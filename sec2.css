@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Lobster&family=Noto+Serif&family=Phudu:wght@500&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Lobster&family=Noto+Serif&family=Phudu:wght@500&family=Ubuntu:wght@300&display=swap');
+.h11
+{
+    margin-left: 5px;
+    color: #C0392B 
+    ;
+    font-family: 'Noto Serif', serif;
+    padding: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    background-color: rgba(244, 246, 247,0.75);
+
+}
+.bgred
+{
+    background-color: red;
+}
+.column:hover
+{
+    background-color: #F1948A;
+}
+.column {
+
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    border: 2px solid white;
+    float: left;
+    background-color: #AED6F1 ;
+    width: 15%;
+    height: 400px; /* Should be removed. Only for demonstration */
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img1
+  {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;  
+      padding: 10px;
+      margin-left: 25px;
+  }
+  .subt
+  {
+      color: black;
+      text-align: center;
+      align-items: center;
+      padding: auto;
+  }
+  .p1
+  {
+      padding: 10px;
+      text-align: center;
+      word-spacing: 10px;
+      
+  }
+  .footercolumn
+  {
+   
+    float: left;
+    background-color:rgba(232, 248, 245,0.5) ;
+    
+    width: 33%;
+    height: 400px; 
+    margin-top: 50px;
+    line-height: 35px;
+    word-wrap: break-word;
+    word-spacing: 10px;
+    text-align: justify;
+  }
+  .socialmedia
+  {
+      height: 50px;
+      width: 50px;
+      float: left;
+      margin: 5px;
+  }
+  .row
+  {
+      margin-left: 25px;
+  }
+  .h2
+  {
+      color: white;
+      text-align: center;
+      font-family: 'Domine', serif;
+
+
+  }
+  .quicklinks a:hover
+  {
+      color: #F4F6F7;
+      text-decoration: underline;
+  }
+  .quicklinks
+  {
+      text-decoration: none;
+      color: black;
+      height: 25px;
+      padding: 15px;
+      text-align: center;
+  }
+  .quicklinks a
+  {
+    text-decoration: none;
+    color: black;  
+}
